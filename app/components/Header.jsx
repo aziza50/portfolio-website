@@ -33,7 +33,7 @@ const Header = () => {
             whileInView = {{opacity:1}}
             transition = {{duration:0.6, delay:0.7}}
             className="max-w-2xl mx-auto font-Ovo">
-            I'm a second-year student in the College of Engineering and Applied Sciences at the University of Virginia, graduating in 2026 with B.S. in Computer Science. 
+            I'm a second-year student in the College of Engineering and Applied Sciences at the University of Virginia, graduating in 2027 with B.S. in Computer Science. 
             </motion.p>
             <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
                 <motion.a

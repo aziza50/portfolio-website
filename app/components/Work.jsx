@@ -68,7 +68,7 @@ const Work = ({isDarkMode}) => {
     initial = {{opacity:0}}
     whileInView = {{opacity:1}}
     transition = {{duration:0.5, delay:1.1}}
-    href="https://github.com/aziza50?tab=projects" className = 'w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover'>
+    href="https://github.com/aziza50" className = 'w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover'>
         Show more <Image src = {isDarkMode ? assets.right_arrow_bold_dark : assets.right_arrow_bold} alt = 'Right arrow' className='w-4'/>
     </motion.a>
 
